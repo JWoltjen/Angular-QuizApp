@@ -1,1 +1,17 @@
-<p>welcome works!</p>
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold">Welcome to Quiz App</h1>
+    <p class="col-md-8 fs-4">A short quiz about the Angular framework</p>
+    <h4>Rules:</h4>
+    <ol>
+        <li>Correct Answer: 10 pts</li>
+        <li>Incorrect Answer: -10 pts</li>
+        <li>Ten seconds per question</li>
+        <li>Refreshing the page will reset the quiz</li>
+    </ol>
+    <h1 style="font-family: cursive; text-align: center">Please enjoy!</h1>
+    <div class="name col-md-4 my-3">
+        <label for="">Enter your name:</label>
+        <input type="text" class="form-control">
+    </div>
+    <button class="btn btn-primary btn-lg" routerLink="/question">Start</button>
+</div>

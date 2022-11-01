@@ -5,8 +5,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
 
 const routes: Routes = [
   {path: "", redirectTo: 'welcome', pathMatch:"full"},
-  {path: "", component: WelcomeComponent},
-  {path: "", component: QuestionComponent},
+  {path: "welcome", component: WelcomeComponent},
+  {path: "question", component: QuestionComponent},
 
 ];
 
