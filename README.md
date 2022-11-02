@@ -11,4 +11,4 @@ One of the new things I learned during this project was how to implement a compo
 ## ElementRef to Grab Player Name
 
 
-![Component Directive]("https://github.com/JWoltjen/Angular-QuizApp/blob/main/componentDirective.JPG" "image Title")
+![Component Directive](https://github.com/JWoltjen/Angular-QuizApp/blob/main/componentDirective.JPG)
