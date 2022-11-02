@@ -9,7 +9,8 @@ One of the new things I learned during this project was how to implement a compo
 
 
 ## ElementRef to Grab Player Name
+This application stores the name the user enters in local storage. To reference this stored value, the Welcome component makes use of @ViewChild, attaching it to the ('name') html element, and assigns it to the local property nameKey of type ElementRef. When the user fires the startQuiz method, it triggers localStorage.setItem("name", this.nameKey.nativeElement.value) and voila, the name stored in local storage can now be interpolated in the HTML. 
 
-![ElementRef](https://github.com/JWoltjen/Angular-QuizApp/blob/main/componentDirective.JPG)
+![ElementRef](https://github.com/JWoltjen/Angular-QuizApp/blob/main/elementRefnameKey.JPG)
 
 
